@@ -49,70 +49,7 @@ end
 
 # -------------------------------------------------
 
-# PROBLEM 3
 
-#INPUT: Hash with key value pairs, see below
-
-json = {
- "first_name": "Jane",
- "last_name": "Smith",
- "email": "jane.smith@wyng.com",
- "gender": null,
- "invitations": [
-    {
-    "from": "",
-    "code": null
-    }
-  ],
- "company": {
-    "name": "",
-    "industries": []
-  },
- "address": {
-    "city": "New York",
-    "state": "NY",
-    "zip": "10011",
-    "street": ""
-  },
-  "extra": [
-    {
-      "info": "",
-      "important": true
-    },
-    {
-      "allergies": ["cheese"]
-    }
-  ]
-}
-
-#OUPUT: Hash with all keys that don't have corresponding values ("", null, []) removed. See below
-
-# desired_output = {
-#  "first_name": "Jane",
-#  "last_name": "Smith",
-#  "email": "jane.smith@wyng.com",
-#  "address": {
-#     "city": "New York",
-#     "state": "NY",
-#     "zip": "10011",
-#   },
-#   "extra": [
-#     {
-#       "important": true
-#     },
-#     {
-#       "allergies": ["cheese"]
-#     }
-#   ]
-# }
-
-#SOURCE: Actual job interview question a flatiron grad brought in
-
-def remove_null(json)
-
-end
-
-# -------------------------------------------------
 
 # PROBLEM 4 (HARD)
 
